@@ -1,0 +1,39 @@
+.bloqueTarjeta {
+  height: 420px;
+  width: 320px;
+  perspective: 500px;
+  position: relative;  
+}
+
+.tarjetita {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 2s ease-in-out;
+  opacity:0.05; 
+}
+.tarjetita:hover {
+  transform: rotateY(180deg);
+  opacity:1;
+  transition: all 5s ease-in-out;
+}
+
+.tarjetita .atras{
+  backface-visibility: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(117,22,22);
+  
+}
+
+.tarjetita .tarjetaFrente{
+  
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: black;
+  transform: rotateY(180deg);
+  background: rgb(2,0,36);
+}

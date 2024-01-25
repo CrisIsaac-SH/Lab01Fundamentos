@@ -1,0 +1,31 @@
+<center>
+  
+  <div class = "bloqueTarjeta">
+    <div class = "tarjetita">
+      <div class = tarjetaFrente>
+        
+      <img src="https://i.imgur.com/A8GNG1k.jpeg" width = 320 height = 420>
+        <p style="position: absolute; 
+                  top: 5%; left: 50%; 
+                  transform: translate(-50%, -50%); 
+                  color: black; 
+                  font-size: 20px;">
+          ¡SOY YO😅!</p>
+        <p style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); color: black; font-size: 20px;">"Cuesta 10 veces más recuperarte que hundirte"</p>
+      
+      </div>
+      
+      <div class = "atras">
+        <h1>Nombre</h1>
+        <p>Cristian Sactic Herrera</p>
+        <h1>Hobbies</h1>
+        <p>Ir al gimnasio, jugar videojuegos y escribir poemas</p>
+        <h1>Correo U</h1>
+        <p>cristian.sactic@galileo.edu</p>
+        <h1>Teléfono</h1>
+        <p>+502 5567-6335</p>
+      
+    </div>
+  </div>
+  
+</center>
